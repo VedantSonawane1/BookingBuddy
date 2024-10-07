@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "zippy-zenith-437904-a9",
+    "private_key_id": "84c079cd759d508260824b648f935e870e821c78",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDUGeEYDO6GLG8o\nEvhQJL2+QjzmFEAIXBW4ByR6grmoa6cgpq6x/oI4PfEX9eyfQkIqtRQ8oaSl6oH/\npuSGCTUw2sYHoPYLO2RRMZPWDn2aoCy5nH3pkv+1C18OeIs7uA+uJrNVhUCn0Nzm\nEFU6pHNl3rov5zIw1Mjyt99PyL7YWjOFbPlytfggL7aObenL+XYX9EkPgX57vyIJ\nfMYEH+F9S/yFSCSJ4Y4E1g28uOnXigFQwpOVbtdKx/CQT2mkYzZJczzb5oqxy5T/\nYZcu5J5hcmiUh4FMFlnXuTRKYBhGcsBvMjmpsIRTruJwXTkGB/7JyE4vaSGQDEBl\n1VwKZj/TAgMBAAECggEADZ3xuRkPcTbGFiUNoxuQwPfAsCbJq5+51zxCJ8lfwQPU\nUYDSA2RrGNBFO7wSqnDXDaXdfD0GdI53NSISVtadfxr0jsXTNgpkmN/ddWctwjEZ\nXftBjC7fUtC9lBDCI53gB9a9ObbZ3UxH+k8/IYowTHB9tJibvM3UbtzGLfmd4wbd\nfuE/nLb3exoJf87bmp/0UxlvK8ubDDDnRq50AxlX6JS37FFG2Xjx4vRNUhlEBfbR\nbEJPc3H7XmL2jNrKCTff62KicoTSJcl4wzdaEfuJhXKLKaHnV1H+VJD6clQNExxO\ns6yNbgxjLGhUAcMcJvUWbFRN/BG8ZvF79LSBXdg9qQKBgQD4y7fF6DyXbJBwSYb8\nItheTWCc4+gv5gmjF5uPiljuB5GICNvxML3px9Rdr5bpYUxVon2DLR3TzSwYt69p\nXrQZCrhANWy3WYAQQLOEtDhgE8DOQN7S/ly3puG3oUrvtii/Mi4f/nr0U6VTYonN\nJfgQhW6t5GenvqHwJEx8AxzT+QKBgQDaPiZXOl5Z6dU00QDiMVMMeJrGWX0VxOVx\nV1KdHaslHOtP8npOYMmhv/YUim9rBAQ16br3amOkpK5AkcB3xNKMHe6vELFV2R/U\naISuVyn6CaqhKTdkNnZkXrL63LVtPxHjTepEClGwcTysORvsAg8tbYcG4hkGLHHF\n4sXd2OMNKwKBgF+koQ85yiFEIPqpqXTASIFoKZ3ml1niiw3hg3HY83r9+dpb3YGJ\nBVkb8u3ZFKC/QMMi5jFJZNAJbcxKwOo29/Ewh8hXQWXyyCJ3XQvE5G866MHhekeO\ndUI8q0UWgmJImr11ovm1sLrAdSvrE6KD2CsxwGylA5we0s4ohiaeY7SxAoGAbOZi\nP1hyyC70InzAEh5GsIxlvt/cmMY9L0dBhADP6574lFYMTZviQQIGis1hN2czqqtM\njjTaL8e046dXAOyHmz88YMLVml7TkSvuOQhpe8jjCbQFXc4HWaIfcSo8pZy5ElFI\nulbj2EVI3y9IDYYhiKuEmxyrG/eFdhboYQDemy0CgYEA25SrzU947yfmnXAnQ345\nei0GcSw1IruRdtzDwrw6mVtuB2zOxUky0ZNbdHSYcZLWJwimPbbvBxSxwSLYCt24\nhPIWLGhjhjcEvRdLA1VRi47KWcrim9hEFTxILhe890Ryl/x8xbYoVn/8+Br3uTAl\n6scSa/NwVBcQMg0TCeg1otc=\n-----END PRIVATE KEY-----\n",
+    "client_email": "bookingbuddy@zippy-zenith-437904-a9.iam.gserviceaccount.com",
+    "client_id": "103278566438619550309",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bookingbuddy%40zippy-zenith-437904-a9.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  

@@ -16,23 +16,45 @@ const calendar = google.calendar({
   auth: jwtClient
 });
 
-const getRoom = (slug) => slug in rooms ? rooms[slug] : null;
+// Function to get room details based on slug
+const getRoom = (slug) => (slug in rooms ? rooms[slug] : null);
 
+// Function to get events for a specific room
 const getEvents = async (slug) => {
-  const room = getRoom(slug);
-  if (!room) throw new Error('Room does not exist');
+  try {
+    const room = getRoom(slug);
+    if (!room) throw new Error('Room does not exist');
 
-  const timeMin = moment().startOf('day').toISOString();
-  const timeMax = moment().add(7, 'days').endOf('day').toISOString();
+    // Set the time range for fetching events
+    const timeMin = moment().startOf('day').toISOString();
+    const timeMax = moment().add(7, 'days').endOf('day').toISOString();
 
-  const response = await calendar.events.list({
-    calendarId: room.id,
-    timeMin,
-    timeMax,
-    singleEvents: true,
-  });
+    // Fetch events from Google Calendar API
+    const response = await calendar.events.list({
+      calendarId: room.id,
+      timeMin,
+      timeMax,
+      singleEvents: true,
+    });
 
-  return response.data.items;
+    // Check if events were retrieved successfully
+    if (!response.data.items) {
+      throw new Error('No events found for this room.');
+    }
+
+    return response.data.items; // Return the list of events
+
+  } catch (error) {
+    // Handle specific API errors
+    if (error.response) {
+      console.error(`API Error: ${error.response.status} - ${error.response.data.error.message}`);
+      throw new Error(`Failed to fetch events: ${error.response.data.error.message}`);
+    } else {
+      // Handle other errors (e.g., network issues, missing calendar ID)
+      console.error(`Error: ${error.message}`);
+      throw new Error(`An error occurred: ${error.message}`);
+    }
+  }
 };
 
 module.exports = {

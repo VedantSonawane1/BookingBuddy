@@ -1,5 +1,5 @@
-const Room = require('../models/roomModel');
-const calendar = require('../google/calendar'); // Google Calendar integration
+const Room = require('../models/roomModel.js');
+const calendar = require('../google/calender.js'); // Google Calendar integration
 
 // Get all rooms
 const getAllRooms = async (req, res) => {
@@ -27,7 +27,7 @@ const createRoom = async (req, res) => {
 // Get available slots for a room
 const getAvailableSlots = async (req, res) => {
   const { slug } = req.params;
-
+  console.log("slug : ",slug)
   try {
     const events = await calendar.getEvents(slug);
     res.status(200).json(events);

@@ -1,0 +1,21 @@
+{
+    "conference-room-a": {
+      "id": "1",
+      "name": "Conference Room A",
+      "capacity": 20,
+      "calendarId": "737d75f7a5b62768f456bf689e8618cd01b919d3a47e5ea7b926456e72f4dfa1@group.calendar.google.com"  
+    },
+    "meeting-room-b": {
+      "id": "2",
+      "name": "Meeting Room B",
+      "capacity": 10,
+      "calendarId": "your_calendar_id_here" 
+    },
+    "study-room-c": {
+      "id": "3",
+      "name": "Study Room C",
+      "capacity": 5,
+      "calendarId": "your_calendar_id_here"
+  }
+}
+  

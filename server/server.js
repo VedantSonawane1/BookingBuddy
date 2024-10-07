@@ -3,6 +3,8 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const roomRoutes = require('./routes/roomRoutes');
 const connectDB = require('./config/db');
+const key = require('./rooms-client.json');
+
 
 dotenv.config();
 const app = express();
